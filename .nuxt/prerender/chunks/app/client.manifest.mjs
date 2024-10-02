@@ -6,17 +6,17 @@ const client_manifest = {
     "file": "Toast.452752a4.css",
     "src": "Toast.css"
   },
-  "_AccountCreationSuccess.vue.4c7e08a1.js": {
+  "_AccountCreationSuccess.vue.bce604b8.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "AccountCreationSuccess.vue.4c7e08a1.js",
+    "file": "AccountCreationSuccess.vue.bce604b8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_Toast.b512f4bc.js": {
+  "_Toast.37d41b51.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -24,7 +24,7 @@ const client_manifest = {
     "css": [
       "Toast.452752a4.css"
     ],
-    "file": "Toast.b512f4bc.js",
+    "file": "Toast.37d41b51.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -35,7 +35,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_avatar.27e367af.js": {
+  "_avatar.cb7c6b23.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -43,7 +43,7 @@ const client_manifest = {
     "assets": [
       "avatar.a35287db.png"
     ],
-    "file": "avatar.27e367af.js",
+    "file": "avatar.cb7c6b23.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -54,7 +54,7 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_logo.c0003374.js": {
+  "_logo.42de3b68.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -62,7 +62,7 @@ const client_manifest = {
     "assets": [
       "logo.0789a60f.png"
     ],
-    "file": "logo.c0003374.js",
+    "file": "logo.42de3b68.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -73,17 +73,17 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_nuxt-link.b8c59855.js": {
+  "_nuxt-link.ba81fce0.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.b8c59855.js",
+    "file": "nuxt-link.ba81fce0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_verify-account.23c7e2e0.js": {
+  "_verify-account.1a917bad.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -91,7 +91,7 @@ const client_manifest = {
     "assets": [
       "verify-account.ab2f1cb2.svg"
     ],
-    "file": "verify-account.23c7e2e0.js",
+    "file": "verify-account.1a917bad.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -102,12 +102,12 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "_vue.f36acd1f.06bf24d7.js": {
+  "_vue.f36acd1f.7f80b7f8.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.06bf24d7.js",
+    "file": "vue.f36acd1f.7f80b7f8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -288,7 +288,7 @@ const client_manifest = {
     "assets": [
       "group.72ce57e3.png"
     ],
-    "file": "auth.f6f36f4c.js",
+    "file": "auth.dbcacb90.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -333,12 +333,12 @@ const client_manifest = {
     "css": [
       "dashboard.cd8d2c9a.css"
     ],
-    "file": "dashboard.837bfdf4.js",
+    "file": "dashboard.46707515.js",
     "imports": [
-      "_nuxt-link.b8c59855.js",
+      "_nuxt-link.ba81fce0.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.c0003374.js",
-      "_avatar.27e367af.js"
+      "_logo.42de3b68.js",
+      "_avatar.cb7c6b23.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/dashboard.vue"
@@ -438,7 +438,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default.761cbc3e.js",
+    "file": "default.3b5ac4c4.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -450,7 +450,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.4a8f9ae6.js",
+    "file": "auth.541acd8e.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -462,7 +462,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "redirect.b8c9e05f.js",
+    "file": "redirect.c8cebf63.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -484,10 +484,10 @@ const client_manifest = {
     "css": [
       "error-404.95c28eb4.css"
     ],
-    "file": "error-404.738fcf0f.js",
+    "file": "error-404.ab9d0429.js",
     "imports": [
-      "_nuxt-link.b8c59855.js",
-      "_vue.f36acd1f.06bf24d7.js",
+      "_nuxt-link.ba81fce0.js",
+      "_vue.f36acd1f.7f80b7f8.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -514,9 +514,9 @@ const client_manifest = {
     "css": [
       "error-500.e798523c.css"
     ],
-    "file": "error-500.82a098b2.js",
+    "file": "error-500.1415b849.js",
     "imports": [
-      "_vue.f36acd1f.06bf24d7.js",
+      "_vue.f36acd1f.7f80b7f8.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -552,7 +552,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.2babf010.js",
+    "file": "entry.acad653c.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
@@ -567,9 +567,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "account-creation-success.4cadd382.js",
+    "file": "account-creation-success.0568ac96.js",
     "imports": [
-      "_AccountCreationSuccess.vue.4c7e08a1.js",
+      "_AccountCreationSuccess.vue.bce604b8.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -583,7 +583,7 @@ const client_manifest = {
     "assets": [
       "success-check.fb678256.svg"
     ],
-    "file": "account-success.799188c0.js",
+    "file": "account-success.3dc9491f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -595,10 +595,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-password.6cc072dd.js",
+    "file": "create-password.5e9f7e69.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.c0003374.js"
+      "_logo.42de3b68.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/create-password.vue"
@@ -608,7 +608,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-pin-success.bbb3a65f.js",
+    "file": "create-pin-success.a766cfda.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -620,7 +620,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-pin.9df0b99e.js",
+    "file": "create-pin.3a23ca49.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -632,7 +632,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.96856f31.js",
+    "file": "index.2e239ab9.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -664,7 +664,7 @@ const client_manifest = {
     "css": [
       "index.5d866219.css"
     ],
-    "file": "index.c2341fa1.js",
+    "file": "index.5e92ea01.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -718,7 +718,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.e17a56e0.js",
+    "file": "index.6e0aa031.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -730,7 +730,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.28c3a6bb.js",
+    "file": "index.76694af7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -742,7 +742,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.c9d7f46e.js",
+    "file": "index.1350a070.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -754,7 +754,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "support.b538c932.js",
+    "file": "support.b3e8dad0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -766,10 +766,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "existing-login.e9c63911.js",
+    "file": "existing-login.a8d8c94b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.c0003374.js"
+      "_logo.42de3b68.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/existing-login.vue"
@@ -779,9 +779,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "forgot-password-verify-account.fdac4be5.js",
+    "file": "forgot-password-verify-account.1104a6ad.js",
     "imports": [
-      "_verify-account.23c7e2e0.js",
+      "_verify-account.1a917bad.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -792,10 +792,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "forgot-password.4218d963.js",
+    "file": "forgot-password.46149b90.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_avatar.27e367af.js"
+      "_avatar.cb7c6b23.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/forgot-password.vue"
@@ -805,7 +805,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.141073ad.js",
+    "file": "index.b2331373.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -817,12 +817,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "login.c37e8b90.js",
+    "file": "login.ceb1577c.js",
     "imports": [
-      "_nuxt-link.b8c59855.js",
-      "_Toast.b512f4bc.js",
+      "_nuxt-link.ba81fce0.js",
+      "_Toast.37d41b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.c0003374.js"
+      "_logo.42de3b68.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/login.vue"
@@ -832,7 +832,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "re-enter-pin.48133bb2.js",
+    "file": "re-enter-pin.fd5e2d6f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -847,7 +847,7 @@ const client_manifest = {
     "assets": [
       "password-recovery.da1b676d.svg"
     ],
-    "file": "recover-password.ebef881f.js",
+    "file": "recover-password.8614eb0b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -859,9 +859,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "secure-account.83c1c168.js",
+    "file": "secure-account.65ded4bd.js",
     "imports": [
-      "_AccountCreationSuccess.vue.4c7e08a1.js",
+      "_AccountCreationSuccess.vue.bce604b8.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -872,7 +872,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "secure-transactions.c9e2d0ac.js",
+    "file": "secure-transactions.797a2e6e.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -884,12 +884,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "signup.66278aa9.js",
+    "file": "signup.24196ca2.js",
     "imports": [
-      "_nuxt-link.b8c59855.js",
-      "_Toast.b512f4bc.js",
+      "_nuxt-link.ba81fce0.js",
+      "_Toast.37d41b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.c0003374.js"
+      "_logo.42de3b68.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/signup.vue"
@@ -899,9 +899,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "verify-account.919a983b.js",
+    "file": "verify-account.ab5d2651.js",
     "imports": [
-      "_verify-account.23c7e2e0.js",
+      "_verify-account.1a917bad.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
