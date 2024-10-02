@@ -1,30 +1,30 @@
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/h3/dist/index.mjs';
-import { stringify, uneval } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/devalue/index.js';
-import { joinURL, withoutTrailingSlash } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/ufo/dist/index.mjs';
-import { renderSSRHead } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/@unhead/ssr/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/marquis.abah/LoanIQ/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///Users/marquis.abah/LoanIQ/node_modules/h3/dist/index.mjs';
+import { stringify, uneval } from 'file:///Users/marquis.abah/LoanIQ/node_modules/devalue/index.js';
+import { joinURL, withoutTrailingSlash } from 'file:///Users/marquis.abah/LoanIQ/node_modules/ufo/dist/index.mjs';
+import { renderSSRHead } from 'file:///Users/marquis.abah/LoanIQ/node_modules/@unhead/ssr/dist/index.mjs';
 import { u as useNitroApp, a as useRuntimeConfig, b as useStorage, g as getRouteRules } from './nitro/nitro-prerenderer.mjs';
-import { version, unref } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/vue/index.mjs';
-import { createServerHead as createServerHead$1 } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/@unhead/shared/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/node-fetch-native/dist/polyfill.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/ofetch/dist/node.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/destr/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/hookable/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/scule/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/klona/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/defu/dist/defu.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/ohash/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unstorage/dist/index.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unstorage/drivers/memory.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/radix3/dist/index.mjs';
+import { version, unref } from 'file:///Users/marquis.abah/LoanIQ/node_modules/vue/index.mjs';
+import { createServerHead as createServerHead$1 } from 'file:///Users/marquis.abah/LoanIQ/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/marquis.abah/LoanIQ/node_modules/@unhead/shared/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/node-fetch-native/dist/polyfill.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/ofetch/dist/node.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/destr/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/hookable/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/scule/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/klona/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/defu/dist/defu.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unstorage/drivers/memory.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/radix3/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file:///Users/marquis.abah/gigs/homepod_admin/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/marquis.abah/LoanIQ/node_modules/pathe/dist/index.mjs';
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -112,7 +112,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.svg"}],"style":[],"script":[],"noscript":[],"title":"National Profile Admin","htmlAttrs":{"lang":"en"}};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.svg"}],"style":[],"script":[],"noscript":[],"title":"LoanIQ Admin","htmlAttrs":{"lang":"en"}};
 
 const appRootId = "__nuxt";
 
