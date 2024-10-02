@@ -6,17 +6,17 @@ export default {
     "file": "Toast.452752a4.css",
     "src": "Toast.css"
   },
-  "_AccountCreationSuccess.vue.90abfd57.js": {
+  "_AccountCreationSuccess.vue.cf942748.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "AccountCreationSuccess.vue.90abfd57.js",
+    "file": "AccountCreationSuccess.vue.cf942748.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_Toast.f7dd079e.js": {
+  "_Toast.84f957a1.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -24,7 +24,7 @@ export default {
     "css": [
       "Toast.452752a4.css"
     ],
-    "file": "Toast.f7dd079e.js",
+    "file": "Toast.84f957a1.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -35,7 +35,7 @@ export default {
     "prefetch": true,
     "preload": true
   },
-  "_avatar.8aa48c0d.js": {
+  "_avatar.ab4c6448.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -43,7 +43,7 @@ export default {
     "assets": [
       "avatar.a35287db.png"
     ],
-    "file": "avatar.8aa48c0d.js",
+    "file": "avatar.ab4c6448.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -54,7 +54,7 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_logo.b4c6b30d.js": {
+  "_logo.2eec49fd.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -62,7 +62,7 @@ export default {
     "assets": [
       "logo.0789a60f.png"
     ],
-    "file": "logo.b4c6b30d.js",
+    "file": "logo.2eec49fd.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -73,17 +73,17 @@ export default {
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_nuxt-link.99b34af3.js": {
+  "_nuxt-link.54c82767.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.99b34af3.js",
+    "file": "nuxt-link.54c82767.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_verify-account.90784183.js": {
+  "_verify-account.1ebe6e81.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -91,7 +91,7 @@ export default {
     "assets": [
       "verify-account.ab2f1cb2.svg"
     ],
-    "file": "verify-account.90784183.js",
+    "file": "verify-account.1ebe6e81.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -102,12 +102,12 @@ export default {
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "_vue.f36acd1f.f58119a7.js": {
+  "_vue.f36acd1f.380301a4.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.f58119a7.js",
+    "file": "vue.f36acd1f.380301a4.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -288,7 +288,7 @@ export default {
     "assets": [
       "group.72ce57e3.png"
     ],
-    "file": "auth.8ee7e7ac.js",
+    "file": "auth.7de955a0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -305,7 +305,7 @@ export default {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "dashboard.cd8d2c9a.css",
+    "file": "dashboard.350e44a1.css",
     "src": "layouts/dashboard.css"
   },
   "layouts/dashboard.vue": {
@@ -331,20 +331,20 @@ export default {
       "verify-account.ab2f1cb2.svg"
     ],
     "css": [
-      "dashboard.cd8d2c9a.css"
+      "dashboard.350e44a1.css"
     ],
-    "file": "dashboard.a5fc94be.js",
+    "file": "dashboard.93770734.js",
     "imports": [
-      "_nuxt-link.99b34af3.js",
+      "_nuxt-link.54c82767.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.b4c6b30d.js",
-      "_avatar.8aa48c0d.js"
+      "_logo.2eec49fd.js",
+      "_avatar.ab4c6448.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/dashboard.vue"
   },
-  "dashboard.cd8d2c9a.css": {
-    "file": "dashboard.cd8d2c9a.css",
+  "dashboard.350e44a1.css": {
+    "file": "dashboard.350e44a1.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -438,7 +438,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default.f3b9fab3.js",
+    "file": "default.1f93be83.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -450,7 +450,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.256a48c9.js",
+    "file": "auth.a307c939.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -462,7 +462,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "redirect.797283cb.js",
+    "file": "redirect.e53a24fd.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -484,10 +484,10 @@ export default {
     "css": [
       "error-404.95c28eb4.css"
     ],
-    "file": "error-404.8f8482df.js",
+    "file": "error-404.025dd182.js",
     "imports": [
-      "_nuxt-link.99b34af3.js",
-      "_vue.f36acd1f.f58119a7.js",
+      "_nuxt-link.54c82767.js",
+      "_vue.f36acd1f.380301a4.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -514,9 +514,9 @@ export default {
     "css": [
       "error-500.e798523c.css"
     ],
-    "file": "error-500.3dd9d8c0.js",
+    "file": "error-500.8218e42d.js",
     "imports": [
-      "_vue.f36acd1f.f58119a7.js",
+      "_vue.f36acd1f.380301a4.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -552,7 +552,7 @@ export default {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.59d5de38.js",
+    "file": "entry.ed3ecce1.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
@@ -567,9 +567,9 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "account-creation-success.9f9d0291.js",
+    "file": "account-creation-success.9f143fc7.js",
     "imports": [
-      "_AccountCreationSuccess.vue.90abfd57.js",
+      "_AccountCreationSuccess.vue.cf942748.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -583,7 +583,7 @@ export default {
     "assets": [
       "success-check.fb678256.svg"
     ],
-    "file": "account-success.0574297f.js",
+    "file": "account-success.99a5f0a0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -595,10 +595,10 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-password.9b04d749.js",
+    "file": "create-password.cdbaf8d5.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.b4c6b30d.js"
+      "_logo.2eec49fd.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/create-password.vue"
@@ -608,7 +608,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-pin-success.fbb2388d.js",
+    "file": "create-pin-success.a6d3d155.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -620,7 +620,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "create-pin.bd551c3d.js",
+    "file": "create-pin.3e92d4aa.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -632,7 +632,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.c544d149.js",
+    "file": "index.4262f0f6.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -664,7 +664,7 @@ export default {
     "css": [
       "index.5d866219.css"
     ],
-    "file": "index.a4a98492.js",
+    "file": "index.1d360183.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -718,7 +718,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.c68c7f0c.js",
+    "file": "index.56d6e575.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -730,7 +730,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.12235fc6.js",
+    "file": "index.a9f2fea8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -742,7 +742,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.97f17553.js",
+    "file": "index.591ade90.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -754,7 +754,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "support.65ccb759.js",
+    "file": "support.0a79898b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -766,10 +766,10 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "existing-login.ded0b405.js",
+    "file": "existing-login.cba81ed2.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.b4c6b30d.js"
+      "_logo.2eec49fd.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/existing-login.vue"
@@ -779,9 +779,9 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "forgot-password-verify-account.f190bd52.js",
+    "file": "forgot-password-verify-account.78c5af03.js",
     "imports": [
-      "_verify-account.90784183.js",
+      "_verify-account.1ebe6e81.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -792,10 +792,10 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "forgot-password.96c92f33.js",
+    "file": "forgot-password.2acf2b01.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_avatar.8aa48c0d.js"
+      "_avatar.ab4c6448.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/forgot-password.vue"
@@ -805,7 +805,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.db7e4ca3.js",
+    "file": "index.68218732.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -817,12 +817,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "login.53cd00de.js",
+    "file": "login.07daf5e6.js",
     "imports": [
-      "_nuxt-link.99b34af3.js",
-      "_Toast.f7dd079e.js",
+      "_nuxt-link.54c82767.js",
+      "_Toast.84f957a1.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.b4c6b30d.js"
+      "_logo.2eec49fd.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/login.vue"
@@ -832,7 +832,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "re-enter-pin.f21c2d05.js",
+    "file": "re-enter-pin.835eee7e.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -847,7 +847,7 @@ export default {
     "assets": [
       "password-recovery.da1b676d.svg"
     ],
-    "file": "recover-password.aa98e985.js",
+    "file": "recover-password.eaea4df4.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -859,9 +859,9 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "secure-account.29a964d9.js",
+    "file": "secure-account.e61ca3df.js",
     "imports": [
-      "_AccountCreationSuccess.vue.90abfd57.js",
+      "_AccountCreationSuccess.vue.cf942748.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -872,7 +872,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "secure-transactions.b0cccd9c.js",
+    "file": "secure-transactions.643d8c81.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -884,12 +884,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "signup.0ad6faf9.js",
+    "file": "signup.550b92f8.js",
     "imports": [
-      "_nuxt-link.99b34af3.js",
-      "_Toast.f7dd079e.js",
+      "_nuxt-link.54c82767.js",
+      "_Toast.84f957a1.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.b4c6b30d.js"
+      "_logo.2eec49fd.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/signup.vue"
@@ -899,9 +899,9 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "verify-account.af3482d8.js",
+    "file": "verify-account.68d3b928.js",
     "imports": [
-      "_verify-account.90784183.js",
+      "_verify-account.1ebe6e81.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
