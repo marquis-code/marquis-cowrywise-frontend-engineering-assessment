@@ -26,6 +26,8 @@ declare global {
   const definePayloadReducer: typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']
   const definePayloadReviver: typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']
   const defineSlots: typeof import('../../node_modules/vue')['defineSlots']
+  const dynamicIcons: typeof import('../../utils/assets')['dynamicIcons']
+  const dynamicImage: typeof import('../../utils/assets')['dynamicImage']
   const effect: typeof import('../../node_modules/vue')['effect']
   const effectScope: typeof import('../../node_modules/vue')['effectScope']
   const generateCurrentDateISO: typeof import('../../utils/generateDate')['generateCurrentDateISO']
@@ -167,6 +169,8 @@ declare module 'vue' {
     readonly definePayloadReducer: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']>
     readonly definePayloadReviver: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']>
     readonly defineSlots: UnwrapRef<typeof import('../../node_modules/vue')['defineSlots']>
+    readonly dynamicIcons: UnwrapRef<typeof import('../../utils/assets')['dynamicIcons']>
+    readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
     readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
@@ -302,6 +306,8 @@ declare module '@vue/runtime-core' {
     readonly definePayloadReducer: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']>
     readonly definePayloadReviver: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']>
     readonly defineSlots: UnwrapRef<typeof import('../../node_modules/vue')['defineSlots']>
+    readonly dynamicIcons: UnwrapRef<typeof import('../../utils/assets')['dynamicIcons']>
+    readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
     readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
