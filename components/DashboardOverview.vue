@@ -257,7 +257,7 @@
                           </div>
                         </div>
                       </div>
-    <div class="flex flex-wrap space-y-3 lg:space-y-0 items-center px-6 pb-6 gap-x-5 lg:gap-x-0">
+    <div class="flex flex-wrap gap-x-3 space-y-3 lg:space-y-0 items-center px-6 pb-6 gap-x-5 lg:gap-x-0">
     
         <button class="w-full sm:w-auto bg-[#2C64E3] text-white px-4 py-3 rounded-lg flex  items-center gap-x-3">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
