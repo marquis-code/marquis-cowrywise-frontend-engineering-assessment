@@ -1,5 +1,5 @@
 <template>
-  <PasscodeLoginForm />
+  <UserLogin />
 </template>
 
 <script setup lang="ts">

@@ -9,14 +9,14 @@
       <p class="text-[#687181] leading-relaxed pb-4">
           Please fill in your information below to access your account.
       </p>
-      <form class="w-full space-y-6" @submit.prevent="handleLogin">
+      <form class="w-full space-y-6" @submit.prevent="login">
         <div class="mb-4">
           <label class="block text-[#7D8799] font-medium mb-1 text-sm" for="phone">Enter Your Phone Number</label>
-          <input type="text" id="phone" v-model="phone" class="w-full px-4 py-4  bg-[#F4F5F7] outline-none border-[0.5px] border-[#F4F5F7] rounded-md focus:outline-none focus:border-green-500" />
+          <input type="text" id="phone" v-model="credential.phoneNumber.value" class="w-full px-4 py-4  bg-[#F4F5F7] outline-none border-[0.5px] border-[#F4F5F7] rounded-md focus:outline-none focus:border-green-500" />
         </div>
         <div class="mb-4 relative">
           <label class="block text-[#7D8799] font-medium mb-1 text-sm" for="passcode">Enter Your six-digit passcode</label>
-          <input :type="showPassword ? 'text' : 'password'" id="passcode" v-model="passcode" class="w-full px-4 py-4  bg-[#F4F5F7] outline-none border-[0.5px] border-[#F4F5F7] rounded-md focus:outline-none focus:border-green-500" />
+          <input :type="showPassword ? 'text' : 'password'" id="passcode" v-model="credential.passcode.value" class="w-full px-4 py-4  bg-[#F4F5F7] outline-none border-[0.5px] border-[#F4F5F7] rounded-md focus:outline-none focus:border-green-500" />
           <div
           @click="toggleShowPassword"
           class="absolute inset-y-0 right-4 top-6 flex items-center cursor-pointer"
@@ -87,7 +87,7 @@
         </div>
         </div>
         <div class="pt-6">
-          <button :disabled="loading" type="submit" class="w-full bg-[#2F6D67] text-white py-3.5 disabled:cursor-not-allowed disabled:opacity-25 rounded-md hover:bg-[#2F6D67] transition">{{loading ? 'processing...' :  'Login'}}</button>
+          <button :disabled="loading || isFormDisabled" type="submit" class="w-full bg-[#2F6D67] text-white py-3.5 disabled:cursor-not-allowed disabled:opacity-25 rounded-md hover:bg-[#2F6D67] transition">{{loading ? 'processing...' :  'Login'}}</button>
         </div>
       </form>
       <div class="text-center mt-4">
@@ -99,36 +99,15 @@
       </div>
     </div>
   </div>
-  <CoreToast v-if="showToast" title="Success!" message="Login was successful." toastType="success" />
 </main>
   </template>
   
   <script setup lang="ts">
-      import { useToast } from '@/composables/core/useToast';  
-  const { showToast } = useToast(); 
-  const router = useRouter()
-  import { ref } from 'vue';
-  const loading = ref(false)
-  
-  const phone = ref('');
-  const passcode = ref('');
-  
-  const handleLogin = () => {
-    loading.value = true
-    console.log('Phone:', phone.value);
-    console.log('Passcode:', passcode.value);
-    showToast(); 
-    setTimeout(() => {
-      loading.value = false
-        router.push('dashboard')
-    }, 3000); // Show error toast for 3 seconds
-  };
-
-
+  import { use_auth_login } from '@/composables/auth/login'
+  const { credential, login, loading, isFormDisabled } = use_auth_login()
   const toggleShowPassword = () => {
   showPassword.value = !showPassword.value;
 };
-
   const showPassword = ref(false);
   </script>
   

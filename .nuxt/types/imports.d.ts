@@ -3,7 +3,6 @@ export {}
 declare global {
   const abortNavigation: typeof import('../../node_modules/nuxt/dist/app')['abortNavigation']
   const addRouteMiddleware: typeof import('../../node_modules/nuxt/dist/app')['addRouteMiddleware']
-  const base64UrlToBase64: typeof import('../../utils/jwt')['base64UrlToBase64']
   const cancelIdleCallback: typeof import('../../node_modules/nuxt/dist/app')['cancelIdleCallback']
   const clearError: typeof import('../../node_modules/nuxt/dist/app')['clearError']
   const clearNuxtData: typeof import('../../node_modules/nuxt/dist/app')['clearNuxtData']
@@ -11,7 +10,7 @@ declare global {
   const computed: typeof import('../../node_modules/vue')['computed']
   const createError: typeof import('../../node_modules/nuxt/dist/app')['createError']
   const customRef: typeof import('../../node_modules/vue')['customRef']
-  const decodeToken: typeof import('../../utils/jwt')['decodeToken']
+  const decryptData: typeof import('../../utils/crypto-utils')['decryptData']
   const defineAppConfig: typeof import('../../node_modules/nuxt/dist/app')['defineAppConfig']
   const defineAsyncComponent: typeof import('../../node_modules/vue')['defineAsyncComponent']
   const defineComponent: typeof import('../../node_modules/vue')['defineComponent']
@@ -30,8 +29,7 @@ declare global {
   const dynamicImage: typeof import('../../utils/assets')['dynamicImage']
   const effect: typeof import('../../node_modules/vue')['effect']
   const effectScope: typeof import('../../node_modules/vue')['effectScope']
-  const generateCurrentDateISO: typeof import('../../utils/generateDate')['generateCurrentDateISO']
-  const generateUUID: typeof import('../../utils/generateUUID')['generateUUID']
+  const encryptData: typeof import('../../utils/crypto-utils')['encryptData']
   const getCurrentInstance: typeof import('../../node_modules/vue')['getCurrentInstance']
   const getCurrentScope: typeof import('../../node_modules/vue')['getCurrentScope']
   const h: typeof import('../../node_modules/vue')['h']
@@ -146,7 +144,6 @@ declare module 'vue' {
   interface ComponentCustomProperties {
     readonly abortNavigation: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['abortNavigation']>
     readonly addRouteMiddleware: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['addRouteMiddleware']>
-    readonly base64UrlToBase64: UnwrapRef<typeof import('../../utils/jwt')['base64UrlToBase64']>
     readonly cancelIdleCallback: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['cancelIdleCallback']>
     readonly clearError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['clearError']>
     readonly clearNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['clearNuxtData']>
@@ -154,7 +151,7 @@ declare module 'vue' {
     readonly computed: UnwrapRef<typeof import('../../node_modules/vue')['computed']>
     readonly createError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['createError']>
     readonly customRef: UnwrapRef<typeof import('../../node_modules/vue')['customRef']>
-    readonly decodeToken: UnwrapRef<typeof import('../../utils/jwt')['decodeToken']>
+    readonly decryptData: UnwrapRef<typeof import('../../utils/crypto-utils')['decryptData']>
     readonly defineAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['defineAppConfig']>
     readonly defineAsyncComponent: UnwrapRef<typeof import('../../node_modules/vue')['defineAsyncComponent']>
     readonly defineComponent: UnwrapRef<typeof import('../../node_modules/vue')['defineComponent']>
@@ -173,8 +170,7 @@ declare module 'vue' {
     readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
-    readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
-    readonly generateUUID: UnwrapRef<typeof import('../../utils/generateUUID')['generateUUID']>
+    readonly encryptData: UnwrapRef<typeof import('../../utils/crypto-utils')['encryptData']>
     readonly getCurrentInstance: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('../../node_modules/vue')['h']>
@@ -283,7 +279,6 @@ declare module '@vue/runtime-core' {
   interface ComponentCustomProperties {
     readonly abortNavigation: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['abortNavigation']>
     readonly addRouteMiddleware: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['addRouteMiddleware']>
-    readonly base64UrlToBase64: UnwrapRef<typeof import('../../utils/jwt')['base64UrlToBase64']>
     readonly cancelIdleCallback: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['cancelIdleCallback']>
     readonly clearError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['clearError']>
     readonly clearNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['clearNuxtData']>
@@ -291,7 +286,7 @@ declare module '@vue/runtime-core' {
     readonly computed: UnwrapRef<typeof import('../../node_modules/vue')['computed']>
     readonly createError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['createError']>
     readonly customRef: UnwrapRef<typeof import('../../node_modules/vue')['customRef']>
-    readonly decodeToken: UnwrapRef<typeof import('../../utils/jwt')['decodeToken']>
+    readonly decryptData: UnwrapRef<typeof import('../../utils/crypto-utils')['decryptData']>
     readonly defineAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['defineAppConfig']>
     readonly defineAsyncComponent: UnwrapRef<typeof import('../../node_modules/vue')['defineAsyncComponent']>
     readonly defineComponent: UnwrapRef<typeof import('../../node_modules/vue')['defineComponent']>
@@ -310,8 +305,7 @@ declare module '@vue/runtime-core' {
     readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
-    readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
-    readonly generateUUID: UnwrapRef<typeof import('../../utils/generateUUID')['generateUUID']>
+    readonly encryptData: UnwrapRef<typeof import('../../utils/crypto-utils')['encryptData']>
     readonly getCurrentInstance: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('../../node_modules/vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('../../node_modules/vue')['h']>

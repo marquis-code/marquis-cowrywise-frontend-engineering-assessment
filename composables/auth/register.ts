@@ -1,49 +1,53 @@
-import { authApiFactory } from "@/apiFactory/auth";
+import { auth_api } from "@/apiFactory/modules/auth";
+import { useCustomToast } from "@/composables/core/useCustomToast";
+const credential = {
+  bvn: ref(""),
+  phone: ref(""),
+};
 
-export const useRegister = () => {
+export const use_auth_register = () => {
   const loading = ref(false);
-  const registerPayload = ref({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-  });
+  const router = useRouter();
+  const { showToast } = useCustomToast();
 
-  const handleRegister = async () => {
+  const register = async () => {
     loading.value = true;
-    try {
-      const payload = {
-        firstName: registerPayload.value.firstName,
-        lastName: registerPayload.value.lastName,
-        email: registerPayload.value.email,
-        password: registerPayload.value.password,
-      };
 
-      const response = await authApiFactory.register(payload);
-      useNuxtApp().$toast.success("Account was successfully created.", {
-        autoClose: 5000,
-        dangerouslyHTMLString: true,
-      });
-      useRouter().push("/login");
-    } catch (error) {
-      useNuxtApp().$toast.error(error.message, {
-        autoClose: 5000,
-        dangerouslyHTMLString: true,
-      });
-      // return error;
-    } finally {
+    const payload = {
+      bvn: credential.bvn.value,
+      phone: credential.phone.value,
+    };
+
+    try {
+      const res = (await auth_api.$_register(payload)) as any;
+
       loading.value = false;
+
+      if (res.type !== "ERROR") {
+        router.push(`/verify-account?userId=${res.data.id}`);
+      } else {
+        console.log(res.data, 'error here')
+        showToast({
+          title: "Error",
+          message: res.data.message,
+          toastType: "error",
+          duration: 3000,
+        });
+      }
+    } catch (error) {
+      loading.value = false;
+      showToast({
+        title: "Error",
+        message: "Registration failed. Please try again.",
+        toastType: "error",
+        duration: 3000,
+      });
     }
   };
 
-  const isFormEmpty = computed(() => {
-    return !!(
-      registerPayload.value.firstName &&
-      registerPayload.value.lastName &&
-      registerPayload.value.email &&
-      registerPayload.value.password
-    );
+  const isFormDisabled = computed(() => {
+    return loading.value || !credential.bvn.value || !credential.phone.value;
   });
 
-  return { registerPayload, handleRegister, loading, isFormEmpty };
+  return { credential, register, loading, isFormDisabled };
 };
