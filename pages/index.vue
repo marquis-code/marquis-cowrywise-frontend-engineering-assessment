@@ -1,8 +1,7 @@
 <template>
   <main>
-=
 <section class="bg-[#DDE2E6] py-32">
-  <div v-if="!searchList.length && !isSearchLoading" class="max-w-6xl mx-auto mb-8 pt-20 ">
+  <div v-if="!searchList.length && !isSearchLoading" class="max-w-6xl mx-auto mb-8 px-4 lg:px-0 pt-20 ">
     <div class="relative w-full">
       <input
         v-model="payload.searchTerm"
@@ -10,20 +9,6 @@
         placeholder="Search for photo"
         class="w-full px-4 py-6 rounded-md border pl-14 border-gray-100 outline-none"
       />
-      <!-- <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        stroke-width="2"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M8 11a4 4 0 100-8 4 4 0 000 8zm8 2a6 6 0 00-12 0 6 6 0 0012 0zm-3 4h.01M13 16h.01"
-        /> -->
-      <!-- </svg> -->
       <svg class="h-5 w-5 absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="#9b9b9b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     </div>
   </div>
@@ -53,7 +38,7 @@
     </div>
     <BaseModal v-if="selectedPhoto" :isOpen="isModalOpen" @close="isModalOpen = false">
       <div class="flex justify-center">
-        <img :src="selectedPhoto?.urls?.regular" alt="Selected photo" class="object-cover max-h-screen w-full" />
+        <img :src="selectedPhoto?.urls?.regular" alt="Selected photo" class="object-cover max-h-96 max-h-screen w-full" />
       </div>
       <div class="mt-4 o=ll-3">
         <h2 class="text-lg font-semibold">{{ selectedPhoto?.user?.name }}</h2>
