@@ -1,8 +1,7 @@
 {
   "private": true,
   "repository": {
-    "type": "git",
-    "url": "https://github.com/ricardobalk/nuxt3-tailwindcss.git"
+    "type": "git"
   },
   "scripts": {
     "dev": "nuxt dev",

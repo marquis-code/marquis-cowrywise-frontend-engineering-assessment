@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from '/Users/marquis.abah/LoanIQ/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/marquis.abah/CarrowiseTest/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

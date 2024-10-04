@@ -3,7 +3,7 @@ export default {
   target: "static",
   app: {
     head: {
-      title: "LoanIQ Admin",
+      title: "Cowrywise Fronted Test For Senior Vue Js Developer Role",
       htmlAttrs: { lang: "en" },
       meta: [
         { charset: "utf-8" },
@@ -19,13 +19,6 @@ export default {
     cssPath: "@/assets/css/main.css",
   },
   axios: {
-    // Axios options here
     timeout: 10000, // Example: set timeout to 10 seconds
   },
-  // buildModules: [
-  //   '@nuxtjs/moment'
-  // ]
-  // alias: {
-  // 	'@': '/'
-  // },
 };
